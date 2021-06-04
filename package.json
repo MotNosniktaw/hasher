@@ -1,0 +1,27 @@
+{
+  "name": "hashnosniktaw",
+  "version": "1.0.2",
+  "description": "A VERY basic hashing tool for CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MotNosniktaw",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+    "hasher": "./index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MotNosniktaw/hasher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MotNosniktaw/hasher/issues"
+  },
+  "homepage": "https://github.com/MotNosniktaw/hasher#readme"
+}
